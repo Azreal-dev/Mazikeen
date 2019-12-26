@@ -18,7 +18,7 @@ class Message {
                 this.channel.send(message).then(res => { if (AutoDelete && typeof AutoDelete === 'number') res.delete(AutoDelete) });
             }, CFG.getRandomInt(1, 3) * 1000);
         } catch (error) {
-            Log.err(error.stack ? error.stack : error.toString());
+            new Log().err(error.stack ? error.stack : error.toString());
         }
     }
 
@@ -34,7 +34,7 @@ class Message {
                     text: this.c_user.username
                 }
             }
-        });
+        }, 7 * 1000);
     }
 
     errInt (err_console) {

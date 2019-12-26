@@ -202,3 +202,13 @@ ReferenceError: id is not defined
     at Receiver.emit (events.js:210:5)
 —————————————————————————————————————————
 
+=========[27/12/2019 à 00:32:28]=========
+TypeError: Cannot read property 'startTyping' of null
+    at Message.send (D:\djibo\Documents\BOT Discord\Mazikeen\Functions\HDLE_Message.fnc.js:14:26)
+    at Message.err (D:\djibo\Documents\BOT Discord\Mazikeen\Functions\HDLE_Message.fnc.js:26:21)
+    at module.exports (D:\djibo\Documents\BOT Discord\Mazikeen\Events\Options\messageReactionAdd.js:25:70)
+    at Client.emit (events.js:210:5)
+    at D:\djibo\Documents\BOT Discord\Mazikeen\Events\Options\raw.js:12:57
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+—————————————————————————————————————————
+
