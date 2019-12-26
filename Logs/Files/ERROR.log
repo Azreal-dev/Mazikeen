@@ -1,0 +1,204 @@
+=========[23/11/2019 à 00:59:38]=========
+TypeError: Cannot read property 'length' of undefined
+—————————————————————————————————————————
+
+=========[23/11/2019 à 01:00:32]=========
+TypeError: Cannot read property 'length' of undefined
+    at module.exports (D:\djibo\Documents\Node.JS\A75_Bot\Events\Basics\message.js:21:30)
+    at Client.emit (events.js:210:5)
+    at MessageCreateHandler.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:210:5)
+    at Receiver.receiverOnMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\ws\lib\websocket.js:789:20)
+    at Receiver.emit (events.js:210:5)
+—————————————————————————————————————————
+
+=========[12/12/2019 à 00:48:39]=========
+TypeError: Cannot read property 'danger' of undefined
+    at Message.err (D:\djibo\Documents\Node.JS\A75_Bot\Functions\HDLE_Message.fnc.js:24:34)
+    at module.exports (D:\djibo\Documents\Node.JS\A75_Bot\Events\Basics\message.js:23:87)
+    at Client.emit (events.js:210:5)
+    at MessageCreateHandler.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:210:5)
+    at Receiver.receiverOnMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\ws\lib\websocket.js:789:20)
+—————————————————————————————————————————
+
+=========[12/12/2019 à 16:51:10]=========
+TypeError: this.channel.startTyping is not a function
+    at Message.send (D:\djibo\Documents\Node.JS\A75_Bot\Functions\HDLE_Message.fnc.js:14:26)
+    at module.exports (D:\djibo\Documents\Node.JS\A75_Bot\Events\Options\messageReactionAdd.js:15:81)
+    at Client.emit (events.js:210:5)
+    at MessageReactionAdd.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\actions\MessageReactionAdd.js:24:31)
+    at MessageReactionAddHandler.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageReactionAdd.js:7:39)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:210:5)
+—————————————————————————————————————————
+
+=========[12/12/2019 à 17:08:21]=========
+TypeError: this.channel.startTyping is not a function
+    at Message.send (D:\djibo\Documents\Node.JS\A75_Bot\Functions\HDLE_Message.fnc.js:14:26)
+    at module.exports (D:\djibo\Documents\Node.JS\A75_Bot\Events\Options\messageReactionAdd.js:15:81)
+    at Client.emit (events.js:210:5)
+    at MessageReactionAdd.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\actions\MessageReactionAdd.js:24:31)
+    at MessageReactionAddHandler.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageReactionAdd.js:7:39)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:210:5)
+—————————————————————————————————————————
+
+=========[12/12/2019 à 17:34:14]=========
+TypeError: Cannot read property 'startTyping' of undefined
+    at Message.send (D:\djibo\Documents\Node.JS\A75_Bot\Functions\HDLE_Message.fnc.js:14:26)
+    at ReactionCollector.<anonymous> (D:\djibo\Documents\Node.JS\A75_Bot\Events\Options\messageReactionAdd.js:45:71)
+    at ReactionCollector.emit (events.js:210:5)
+    at ReactionCollector._handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\structures\interfaces\Collector.js:92:10)
+    at Client.emit (events.js:215:7)
+    at MessageReactionAdd.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\actions\MessageReactionAdd.js:24:31)
+    at MessageReactionAddHandler.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageReactionAdd.js:7:39)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+—————————————————————————————————————————
+
+=========[12/12/2019 à 17:35:18]=========
+TypeError: Cannot read property 'startTyping' of undefined
+    at Message.send (D:\djibo\Documents\Node.JS\A75_Bot\Functions\HDLE_Message.fnc.js:14:26)
+    at ReactionCollector.<anonymous> (D:\djibo\Documents\Node.JS\A75_Bot\Events\Options\messageReactionAdd.js:47:71)
+    at ReactionCollector.emit (events.js:210:5)
+    at ReactionCollector._handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\structures\interfaces\Collector.js:92:10)
+    at Client.emit (events.js:215:7)
+    at MessageReactionAdd.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\actions\MessageReactionAdd.js:24:31)
+    at MessageReactionAddHandler.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageReactionAdd.js:7:39)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+—————————————————————————————————————————
+
+=========[12/12/2019 à 17:36:08]=========
+TypeError: Cannot read property 'startTyping' of undefined
+    at Message.send (D:\djibo\Documents\Node.JS\A75_Bot\Functions\HDLE_Message.fnc.js:14:26)
+    at ReactionCollector.<anonymous> (D:\djibo\Documents\Node.JS\A75_Bot\Events\Options\messageReactionAdd.js:47:71)
+    at ReactionCollector.emit (events.js:210:5)
+    at ReactionCollector._handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\structures\interfaces\Collector.js:92:10)
+    at Client.emit (events.js:215:7)
+    at MessageReactionAdd.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\actions\MessageReactionAdd.js:24:31)
+    at MessageReactionAddHandler.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\handlers\MessageReactionAdd.js:7:39)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+—————————————————————————————————————————
+
+=========[13/12/2019 à 17:06:26]=========
+DiscordAPIError: Cannot send messages to this user
+    at D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15
+    at D:\djibo\Documents\Node.JS\A75_Bot\node_modules\snekfetch\src\index.js:215:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+—————————————————————————————————————————
+
+=========[13/12/2019 à 17:06:32]=========
+DiscordAPIError: Cannot send messages to this user
+    at D:\djibo\Documents\Node.JS\A75_Bot\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15
+    at D:\djibo\Documents\Node.JS\A75_Bot\node_modules\snekfetch\src\index.js:215:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+—————————————————————————————————————————
+
+=========[23/12/2019 à 10:34:42]=========
+ReferenceError: vvv is not defined
+—————————————————————————————————————————
+
+=========[23/12/2019 à 11:01:48]=========
+ReferenceError: kiki is not defined
+    at Object.module.exports.run (D:\djibo\Documents\BOT Discord\Mazikeen\Commands\Main\Test.CMD.js:9:9)
+    at module.exports (D:\djibo\Documents\BOT Discord\Mazikeen\Events\Basics\message.js:28:22)
+    at Client.emit (events.js:210:5)
+    at MessageCreateHandler.handle (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:210:5)
+    at Receiver.receiverOnMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\ws\lib\websocket.js:789:20)
+—————————————————————————————————————————
+
+=========[23/12/2019 à 11:02:21]=========
+ReferenceError: kiki is not defined
+    at Object.module.exports.run (D:\djibo\Documents\BOT Discord\Mazikeen\Commands\Main\Test.CMD.js:9:9)
+    at module.exports (D:\djibo\Documents\BOT Discord\Mazikeen\Events\Basics\message.js:28:22)
+    at Client.emit (events.js:210:5)
+    at MessageCreateHandler.handle (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:210:5)
+    at Receiver.receiverOnMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\ws\lib\websocket.js:789:20)
+—————————————————————————————————————————
+
+=========[23/12/2019 à 11:08:48]=========
+ReferenceError: kiki is not defined
+    at Object.module.exports.run (D:\djibo\Documents\BOT Discord\Mazikeen\Commands\Main\Test.CMD.js:9:9)
+    at module.exports (D:\djibo\Documents\BOT Discord\Mazikeen\Events\Basics\message.js:28:22)
+    at Client.emit (events.js:210:5)
+    at MessageCreateHandler.handle (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:210:5)
+    at Receiver.receiverOnMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\ws\lib\websocket.js:789:20)
+—————————————————————————————————————————
+
+=========[23/12/2019 à 11:09:22]=========
+ReferenceError: kiki is not defined
+    at Object.module.exports.run (D:\djibo\Documents\BOT Discord\Mazikeen\Commands\Main\Test.CMD.js:9:9)
+    at module.exports (D:\djibo\Documents\BOT Discord\Mazikeen\Events\Basics\message.js:28:22)
+    at Client.emit (events.js:210:5)
+    at MessageCreateHandler.handle (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:210:5)
+    at Receiver.receiverOnMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\ws\lib\websocket.js:789:20)
+—————————————————————————————————————————
+
+=========[23/12/2019 à 11:11:47]=========
+ReferenceError: kiki is not defined
+    at Object.module.exports.run (D:\djibo\Documents\BOT Discord\Mazikeen\Commands\Main\Test.CMD.js:9:9)
+    at module.exports (D:\djibo\Documents\BOT Discord\Mazikeen\Events\Basics\message.js:28:22)
+    at Client.emit (events.js:210:5)
+    at MessageCreateHandler.handle (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:210:5)
+    at Receiver.receiverOnMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\ws\lib\websocket.js:789:20)
+—————————————————————————————————————————
+
+=========[26/12/2019 à 20:04:46]=========
+ReferenceError: id is not defined
+    at module.exports (D:\djibo\Documents\BOT Discord\Mazikeen\Events\Basics\message.js:12:41)
+    at Client.emit (events.js:210:5)
+    at MessageCreateHandler.handle (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\packets\handlers\MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:105:65)
+    at WebSocketConnection.onPacket (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:210:5)
+    at Receiver.receiverOnMessage (D:\djibo\Documents\BOT Discord\Mazikeen\node_modules\ws\lib\websocket.js:789:20)
+    at Receiver.emit (events.js:210:5)
+—————————————————————————————————————————
+

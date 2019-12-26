@@ -1,0 +1,21 @@
+{
+  "name": "Mazikeen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "crypto": "^1.0.1",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "jimp": "^0.8.5",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.6.0"
+  }
+}
