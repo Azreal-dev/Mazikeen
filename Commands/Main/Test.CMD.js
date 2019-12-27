@@ -9,23 +9,7 @@ module.exports.run = async (client, msg, t) => {
 
         setTimeout(async () => {
             await channel.stopTyping();
-            channel.send('**Essai des fonctionnalités en cours **<a:loading_mazikeen:658599310463729675>').then(async res => {
-                setTimeout(() => {
-                    res.delete();
-                    new Messages(msg, client, null).send({
-                        embed: {
-                            color: CFG.color.success,
-                            title: 'Rapport d\'essai',
-                            description: '**- Message (FNC 1 - 15)** : `OK`\n**- Commandes ** : `OK`\n**- API Atlass_75.js** : `OK`\n**- Utilisateur** : `OK`\n**- Évènements** : `OK`',
-                            timestamp: new Date(),
-                            footer: {
-                                icon_url: client.user.displayAvatarURL,
-                                text: client.user.username
-                            }
-                        }
-                    });
-                }, CFG.getRandomInt(1, 5) * 1000);
-            });
+            channel.send('Pas encore disponible !')
         }, CFG.getRandomInt(1, 3) * 1000);
     } catch (error) {
         channel.stopTyping();

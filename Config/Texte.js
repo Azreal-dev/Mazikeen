@@ -3,7 +3,7 @@ const t = {
         err: ":no_entry: | Erreur | :no_entry:",
         roles: "Rôles // roles",
         roles_dev: "Rôles développeur // Developer roles",
-        needMP: "Message privé // Direct message"
+        needMP: "Message privé // Direct message",
     },
 
     msg: {
@@ -16,12 +16,14 @@ const t = {
             NEED_ARGS: (give, needed) => `:x: | __**Argument non valides :**__ ${needed} argument.s sont nécessaires, vous en avez fournis ${give} !\n----\n:x: __**Invalid arguments:**__ ${needed} are needed but ${give} were provided.`,
             CMD_404: "Je n'ai pas trouver cette commande ! :confused:\n----\nI didn't find this command! :confused:",
             DONT_UNDERSTAND: "Désolé, mais je n'ai pas compris votre demande. // Sorry, but I don't understand your request.",
-            MP: (id) => `<@${id}>, pouvez vous activer temporairement vos MP ? Je dois vous envoyer un message privé. Si vous ne savez pas comment, voici un petit tuto.\n----\n<@${id}>, can you temporarily activate your PM? I need to send you a message. If you don't know how to do it, here's a little tutorial.`
+            MP: (id) => `<@!${id}>, pouvez vous activer temporairement vos MP ? Je dois vous envoyer un message privé. Si vous ne savez pas comment, voici un petit tuto.\n----\n<@${id}>, can you temporarily activate your PM? I need to send you a message. If you don't know how to do it, here's a little tutorial.`,
+            REACT_404: (id) => `Calme toi <@${id}> ! arrête de mettre des trucs que je comprend pas ! Espèce de moula !`
         },
         role: {
-            q1: "Êtes vous un développeur ?\n----\nAre you a developer?",
-            q2: "Vous développez en quel langage / technologie ? *Faite une liste séparé par des \";\". EX : HTML;CSS;JS;PHP;LUA*\n----\nWhat language / technology do you develop?",
-            q3: "Vous jouez à des jeux ?\n----\nDo you play games?"
+            title: "Rôle ajouté",
+            titleR: "Rôle retiré",
+            msg: (user, roleID) => `GG <@${user}> ! Tu as maintenant le rôle <@&${roleID}> ainsi qu'aux salons qu'il propose.`,
+            msgR: (user, roleID) => `OMG <@${user}> :scream: ! Tu n'as plus le rôle <@&${roleID}> ainsi qu'aux salons qu'il proposait.`
         }
     }
 }

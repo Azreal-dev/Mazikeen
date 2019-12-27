@@ -23,18 +23,41 @@ class Message {
     }
 
     err (message) {
-        return this.send({
-            embed: {
-                color: CFG.color.danger,
-                title: T.title.err,
-                description: message,
-                timestamp: new Date(),
-                footer: {
-                    icon_url: this.c_user.displayAvatarURL,
-                    text: this.c_user.username
+        try {
+            this.send({
+                embed: {
+                    color: CFG.color.danger,
+                    title: T.title.err,
+                    description: message,
+                    timestamp: new Date(),
+                    footer: {
+                        icon_url: this.c_user.displayAvatarURL,
+                        text: this.c_user.username
+                    }
                 }
-            }
-        }, 7 * 1000);
+            }, 7 * 1000);
+        } catch (error) {
+            new Log().err(error.stack ? error.stack : error.toString());
+        }
+    }
+
+    success (message) {
+        try {
+            this.send({
+                embed: {
+                    color: CFG.color.success,
+                    title: message.title,
+                    description: message.msg,
+                    timestamp: new Date(),
+                    footer: {
+                        icon_url: this.c_user.displayAvatarURL,
+                        text: this.c_user.username
+                    }
+                }
+            }, 7 * 1000);
+        } catch (error) {
+            new Log().err(error.stack ? error.stack : error.toString());
+        }
     }
 
     errInt (err_console) {

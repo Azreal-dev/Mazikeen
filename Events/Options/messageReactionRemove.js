@@ -9,9 +9,9 @@ module.exports = async (client, reaction, user) => {
     // Règle lu
     if (reaction.message.id === CFG.ID.msg.regles) {
         if (reaction.emoji.name === CFG.ID.react.regles) {
-            reaction.message.guild.member(user).addRole(CFG.ID.roles.regle_lu).catch(console.error);
+            reaction.message.guild.member(user).removeRole(CFG.ID.roles.regle_lu).catch(console.error);
         }
-    }
+    };
 
     // Demande de rôle
     if (reaction.message.id === CFG.ID.msg.games) {
@@ -56,8 +56,8 @@ module.exports = async (client, reaction, user) => {
                 break;
         }
         if (roleID) {
-            reaction.message.guild.member(user).addRole(roleID).catch(console.error);
-            new Messages(false, client, reaction.message.channel).success({title: T.msg.role.title, msg: T.msg.role.msg(user.id, roleID)});
+            reaction.message.guild.member(user).removeRole(roleID).catch(console.error);
+            new Messages(false, client, reaction.message.channel).success({title: T.msg.role.titleR, msg: T.msg.role.msgR(user.id, roleID)});
         };
     }
 }

@@ -16,7 +16,7 @@ class config {
 
         this.presence = {
             autoSkip: 5,
-            name: [`${this.prefix}help`, 'Atlaaass 💖', 'Dembaaa 💖', 'Maliaaa 💖', 'Azraaaael 💖', 'Rydeeeer 💖', 'Joe me kiff 🤫'],
+            name: ['', `${this.prefix}help`, 'Atlaaass 💖', 'Dembaaa 💖', 'Maliaaa 💖', 'Azraaaael 💖', 'Rydeeeer 💖', 'Joe me kiff 🤫'],
             type: 3
         };
 
