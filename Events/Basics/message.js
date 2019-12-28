@@ -10,7 +10,7 @@ module.exports = async (client, msg) => {
         const content = msg.content.toLowerCase();
         if (content.includes("es tu là mazikeen") {
             msg.react("✅");
-            return msg.reply("Oui, je suis là ☺");
+            return new Message(msg, client, null).send("Oui, je suis là ☺");
         }
         if (content.includes('je t\'aime mazikeen')) {
             if (CFG.love.blacklist.find(id => id === msg.author.id)) new Messages(msg, client, false).send('T\'es qui toi connard ? :middle_finger:');
