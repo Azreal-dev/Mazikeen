@@ -8,9 +8,9 @@ module.exports = async (client, msg) => {
     try {
         const prefix = CFG.prefix;
         const content = msg.content.toLowerCase();
-        if (content.includes("es tu là mazikeen") {
+        if (content.includes("es tu là mazikeen")) {
             msg.react("✅");
-            return new Message(msg, client, null).send("Oui, je suis là ☺");
+            return new Messages(msg, client, null).send("Oui, je suis là ☺");
         }
         if (content.includes('je t\'aime mazikeen')) {
             if (CFG.love.blacklist.find(id => id === msg.author.id)) new Messages(msg, client, false).send('T\'es qui toi connard ? :middle_finger:');
@@ -41,6 +41,7 @@ module.exports = async (client, msg) => {
             new Log().err(err.stack ? err.stack : err.toString());
         }
     } catch (err) {
+        new Messages(msg, client).errInt(err.message || 'N/A');
         new Log().err(err.stack ? err.stack : err.toString());
     }
 };
