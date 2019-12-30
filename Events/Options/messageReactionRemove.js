@@ -49,6 +49,10 @@ module.exports = async (client, reaction, user) => {
             case gamesReact.Ark:
                 roleID = gamesRoles.Ark;
                 break;
+                
+            case gamesReact.Golf:
+                roleID = gamesRoles.Golf;
+                break; 
 
             default:
                 roleID = null;
