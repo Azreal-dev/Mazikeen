@@ -12,6 +12,7 @@ module.exports = async (client, msg) => {
             msg.react("✅");
             return new Messages(msg, client, null).send("Oui, je suis là ☺");
         }
+        if (content.includes('laisse les jaloux mon ange mazikeen')) return new Messages(msg, client, false).send('Je suis à toi pour l\'éternité mon amour :heart:');
         if (content.includes('je t\'aime mazikeen')) {
             if (CFG.love.blacklist.find(id => id === msg.author.id)) new Messages(msg, client, false).send('T\'es qui toi connard ? :middle_finger:');
             else if (CFG.love.whitlist.find(id => id=== msg.author.id)) new Messages(msg, client, null).send('Je t\'aime aussi mon ange déchu :heart:');
